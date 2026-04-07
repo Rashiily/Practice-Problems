@@ -20,3 +20,8 @@ int main()
     }
      return 0;
 }
+/*output:
+Enter three numbers:3
+5
+6
+Greatest number is 6*/
