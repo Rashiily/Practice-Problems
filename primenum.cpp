@@ -22,3 +22,7 @@ if (prime)
     cout << "Not a prime number";
     return 0;
 }
+
+/*output:
+Enter a number: 7
+Prime number*/
