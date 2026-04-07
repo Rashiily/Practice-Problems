@@ -38,3 +38,35 @@ cout << "\nDiscount: -" << discount;
 cout << "\nFinal Amount: " << total - discount;
 return 0;
 }
+/*output:
+Enter Customer Name: rashi
+Enter Contact: 8888888
+Enter Number of Items: 5
+
+Item Name: cola
+Quantity: 5
+Price: 10
+
+Item Name: lays
+Quantity: 2
+Price: 20
+
+Item Name: chocolate
+Quantity: 3
+Price: 100
+
+Item Name: mango 
+Quantity: 5
+Price: 20
+
+Item Name: icecream
+Quantity: 1
+Price: 60
+
+----------- Hotel Bill -----------
+Table No: 4
+Customer Name: rashi
+Contact: 8888888
+Total Amount: 550
+Discount: -0
+Final Amount: 550*/
