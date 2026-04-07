@@ -1,4 +1,4 @@
-// print a rpogram of mini calculator
+// print a program of mini calculator
 #include <iostream>
 using namespace std;
 
@@ -30,3 +30,13 @@ int main() {
 
        return 0;
 }
+/*output
+Enter two numbers: 55
+67
+1.Addition
+2. Subtraction
+3.Multiplication
+4.Division
+Enter your choice: 1
+Result = 122*/
+    
