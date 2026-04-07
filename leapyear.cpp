@@ -11,3 +11,10 @@ else
 cout << "Not a Leap Year";
 return 0;
 }
+
+/*output1:
+Enter a year: 2026
+Not a Leap Year
+output2:
+Enter a year: 2000
+Leap Year*/
