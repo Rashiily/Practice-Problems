@@ -1,26 +1,25 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-   class number
-{
+
+class Numbers {
+    int n;
+
 public:
-int n ,i;
- void get()
-{
-  cin >> n;
-}
-  void show ()
-{
-  for(i=1;i<=n;i++)
-{
-  cout<<i<<" ";
-}
-}
+    void getInput() {
+        cout << "Enter value of n: ";
+        cin >> n;
+    }
+
+    void printNumbers() {
+        for(int i = 1; i <= n; i++) {
+            cout << i << " ";
+        }
+    }
 };
 
-    int main ()
-{
-   number obj;
-  obj.get();
-  obj.show();
-   return 0;
+int main() {
+    Numbers obj;
+    obj.getInput();
+    obj.printNumbers();
+    return 0;
 }
