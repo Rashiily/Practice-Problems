@@ -20,3 +20,8 @@ cout << "Enter radius of circle: ";
      cout << "Area of circle = " << area(r) << endl;
     return 0;
 }
+
+/*output:
+Enter base and height of triangle: 5
+8
+Area of triangle = 20*/
